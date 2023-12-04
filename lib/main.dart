@@ -1,5 +1,6 @@
 import 'package:cars_market/amazon_ui.dart';
 import 'package:cars_market/hotel_page.dart';
+import 'package:cars_market/ui_amazon.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: AmazonUI()
+      home: UiAmazon()
     );
   }
 }
