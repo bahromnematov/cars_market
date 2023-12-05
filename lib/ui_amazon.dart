@@ -293,9 +293,9 @@ class _UiAmazonState extends State<UiAmazon> {
                        ),
 
                      ),
-                        SizedBox(
-                          height: 15,
-                        ),
+                        // SizedBox(
+                        //   height: 15,
+                        // ),
 
                       ],
                     ),
