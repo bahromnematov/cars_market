@@ -30,6 +30,7 @@ flutter:
   assets:
      - assets/
      - assets/amazon/
+     - assets/facebook/
 
   # fonts:
   #   - family: Schyler

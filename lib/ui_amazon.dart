@@ -11,38 +11,7 @@ class _UiAmazonState extends State<UiAmazon> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        elevation: 0,
-        backgroundColor: Color(0xFF018197),
-        leading: Icon(
-          Icons.menu,
-          color: Colors.white,
-        ),
-        title: Row(
-          children: [
-            Image(
-              image: AssetImage("assets/amazon/amazon_logo.jpg"),
-              width: 100,
-            )
-          ],
-        ),
-        actions: [
-          Icon(
-            Icons.mic,
-            color: Colors.white,
-          ),
-          SizedBox(
-            width: 12,
-          ),
-          Icon(
-            Icons.shopping_cart,
-            color: Colors.white,
-          ),
-          SizedBox(
-            width: 12,
-          )
-        ],
-      ),
+
       body: Container(
           color: Colors.grey.shade300,
           child: ListView(
@@ -72,7 +41,7 @@ class _UiAmazonState extends State<UiAmazon> {
                             ),
                           ),
                           Icon(
-                            Icons.camera_alt,
+                            Icons.mic,
                             color: Color(0xFF018197),
                           )
                         ],
@@ -293,9 +262,9 @@ class _UiAmazonState extends State<UiAmazon> {
                        ),
 
                      ),
-                        // SizedBox(
-                        //   height: 15,
-                        // ),
+                        SizedBox(
+                          height: 15,
+                        ),
 
                       ],
                     ),
